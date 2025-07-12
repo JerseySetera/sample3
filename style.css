@@ -1,0 +1,117 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #050816;
+    overflow-x: hidden;
+}
+
+.bg-hero-gradient {
+    background: radial-gradient(circle, rgba(14, 18, 41, 0.8) 0%, #050816 70%);
+}
+
+.video-bg-container {
+    z-index: -2;
+}
+
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+}
+
+.form-container {
+    background: rgba(18, 23, 53, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(45, 212, 191, 0.2);
+    box-shadow: 0 0 30px rgba(45, 212, 191, 0.1);
+}
+
+.form-input {
+    width: 100%;
+    background: rgba(5, 8, 22, 0.7);
+    border: 1px solid #2d3748;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #2dd4bf;
+    box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.3);
+}
+
+.cta-button {
+    background: #2dd4bf;
+    color: #050816;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #5eead4;
+    box-shadow: 0 0 20px rgba(45, 212, 191, 0.5);
+    transform: translateY(-2px);
+}
+
+.text-content-right {
+    background: rgba(18, 23, 53, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 0.75rem;
+    border: 1px solid rgba(45, 212, 191, 0.1);
+}
+
+.feature-icon-right {
+    background: rgba(45, 212, 191, 0.1);
+    color: #2dd4bf;
+}
+.feature-icon-right i {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.feature-card {
+    background-color: #111827;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    border: 1px solid #1f2937;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(45, 212, 191, 0.5);
+}
+
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: #050816;
+    color: #2dd4bf;
+    border: 1px solid #1f2937;
+}
+
+.testimonial-card {
+    background-color: #10142c;
+    border: 1px solid #1e293b;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.testimonial-card .star-icon {
+    fill: #34d399;
+    stroke-width: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+}
